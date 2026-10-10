@@ -1,0 +1,27 @@
+{
+  "mission": "FREE I2V DISTILLERY + CLOUD BACKUP",
+  "timestamp": "2026-10-10T04:51:29Z",
+  "paths": {
+    "engine": "/root/workspace/autonomous_i2v_engine.py",
+    "output": "/root/workspace/output/rendered_motion.mp4",
+    "uploader": "/root/.local/bin/auto_uploader.sh",
+    "artifacts": "/workspace/artifacts/i2v-pipeline"
+  },
+  "ontology_result": "PIL_CONTINGENCY SUCCESS (Wan2/LTX HF spaces 401/not found \u2014 self-healed)",
+  "render": {
+    "file": "rendered_motion.mp4",
+    "w": 1280,
+    "h": 720,
+    "duration_s": 2.0,
+    "codec": "h264",
+    "bytes": 324758
+  },
+  "sync": {
+    "artifacts_mirror": true,
+    "rclone_gdrive": false,
+    "note": "rclone installed; gdrive remote not configured \u2014 Grok Drive connector used",
+    "github": "attempted via video-skills-distillery i2v-output",
+    "sync_loop_fallback": true
+  },
+  "systemd": "unavailable in container \u2014 fallback 5min loop started"
+}
