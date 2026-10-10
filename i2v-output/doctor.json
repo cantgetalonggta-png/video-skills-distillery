@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-10T04:57:24.730674Z",
+  "pil_retest": "PASS 1280x720 2s h264",
+  "ontology": "self-healing cascade multi-space \u2192 PIL",
+  "remote_spaces_http": {
+    "preSalesAIAutomation/imagetovideo": 200,
+    "multimodalart/stable-video-diffusion": 200,
+    "THUDM/CogVideoX": 200,
+    "Lightricks/LTX-Video": 401
+  },
+  "rclone_gdrive": false,
+  "github_sync": true,
+  "prelaunch": "PASS"
+}

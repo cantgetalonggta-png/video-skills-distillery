@@ -1,11 +1,14 @@
 {
-  "node": "v20.20.2",
-  "ffmpeg": true,
-  "pil": true,
-  "free_demo_ok": true,
-  "free_demo_bytes": 147759,
-  "free_demo_path": "/workspace/artifacts/video-skills-platform/renders/free-demo.mp4",
-  "hyperframes_cli": "needs Node>=22 (sandbox Node 20) \u2014 documented; free ffmpeg path VERIFIED",
-  "engines_catalogued": 11,
+  "timestamp": "2026-10-10T04:57:24.730674Z",
+  "pil_retest": "PASS 1280x720 2s h264",
+  "ontology": "self-healing cascade multi-space \u2192 PIL",
+  "remote_spaces_http": {
+    "preSalesAIAutomation/imagetovideo": 200,
+    "multimodalart/stable-video-diffusion": 200,
+    "THUDM/CogVideoX": 200,
+    "Lightricks/LTX-Video": 401
+  },
+  "rclone_gdrive": false,
+  "github_sync": true,
   "prelaunch": "PASS"
 }

@@ -1,0 +1,192 @@
+{
+  "title": "FREE Image-to-Video Master Catalog \u2014 Max Depth 2026-10-10",
+  "generated_utc": "2026-10-10T04:56:20.589897Z",
+  "principle": "Prefer free OSS / ZeroGPU. Paid SaaS optional last. PIL contingency always available.",
+  "http_probe_notes": {
+    "Wan-AI/Wan2.1 space": "200",
+    "multimodalart/stable-video-diffusion": "200",
+    "THUDM/CogVideoX": "200",
+    "preSalesAIAutomation/imagetovideo": "200 (Wan2.2 Faster Pro ZeroGPU)",
+    "Lightricks/LTX-Video space": "401 gated",
+    "r3gm/WAMU": "401",
+    "github Wan/LTX/Open-Sora/CogVideo": "200"
+  },
+  "engines": [
+    {
+      "id": "wan2.1",
+      "name": "Wan2.1 I2V 14B/1.3B",
+      "org": "Wan-AI / Alibaba",
+      "license": "Apache-2.0",
+      "cost": "$0 local/weights",
+      "hf_model": "https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P",
+      "github": "https://github.com/Wan-Video/Wan2.1",
+      "space_candidates": [
+        "Wan-AI/Wan2.1",
+        "preSalesAIAutomation/imagetovideo"
+      ],
+      "tier": "primary",
+      "method": "ZeroGPU Space or ComfyUI/Diffusers local"
+    },
+    {
+      "id": "wan2.2",
+      "name": "Wan2.2 I2V A14B MoE",
+      "org": "Wan-AI",
+      "license": "Apache-2.0",
+      "cost": "$0",
+      "hf_model": "https://huggingface.co/Wan-AI/Wan2.2-I2V-A14B",
+      "space_candidates": [
+        "preSalesAIAutomation/imagetovideo"
+      ],
+      "tier": "primary",
+      "method": "FP8 ZeroGPU community demos"
+    },
+    {
+      "id": "ltx",
+      "name": "LTX-Video / LTX-2.5",
+      "org": "Lightricks",
+      "license": "LTX Community (rev gates)",
+      "cost": "$0 under revenue threshold",
+      "hf_model": "https://huggingface.co/Lightricks/LTX-Video",
+      "github": "https://github.com/Lightricks/LTX-Video",
+      "tier": "secondary",
+      "method": "ComfyUI templates / open weights"
+    },
+    {
+      "id": "cogvideox",
+      "name": "CogVideoX-5B I2V",
+      "org": "THUDM/Zhipu",
+      "license": "varies (2B Apache)",
+      "cost": "$0",
+      "hf_model": "https://huggingface.co/THUDM/CogVideoX-5b-I2V",
+      "space": "THUDM/CogVideoX",
+      "github": "https://github.com/THUDM/CogVideo",
+      "tier": "secondary",
+      "method": "HF Space / Diffusers"
+    },
+    {
+      "id": "svd",
+      "name": "Stable Video Diffusion",
+      "org": "Stability AI",
+      "license": "STABILITY AI COMMUNITY",
+      "cost": "$0",
+      "space": "multimodalart/stable-video-diffusion",
+      "tier": "secondary",
+      "method": "Classic free I2V space"
+    },
+    {
+      "id": "opensora",
+      "name": "Open-Sora",
+      "org": "HPC-AI Tech",
+      "license": "Apache-2.0",
+      "cost": "$0",
+      "github": "https://github.com/hpcaitech/Open-Sora",
+      "tier": "research",
+      "method": "Full training+I2V pipeline"
+    },
+    {
+      "id": "hunyuan",
+      "name": "HunyuanVideo",
+      "org": "Tencent",
+      "license": "Tencent",
+      "cost": "$0 weights",
+      "github": "https://github.com/Tencent/HunyuanVideo",
+      "tier": "local",
+      "method": "ComfyUI / local GPU"
+    },
+    {
+      "id": "mochi",
+      "name": "Mochi 1",
+      "org": "Genmo",
+      "license": "Apache-2.0",
+      "cost": "$0",
+      "github": "https://github.com/genmoai/mochi",
+      "tier": "local",
+      "method": "Smooth motion open weights"
+    },
+    {
+      "id": "comfyui-wan",
+      "name": "ComfyUI + Wan GGUF",
+      "org": "community",
+      "license": "Apache-2.0 models",
+      "cost": "$0",
+      "method": "8GB+ VRAM local",
+      "tier": "local",
+      "notes": "WanImageToVideo + VHS_VideoCombine"
+    },
+    {
+      "id": "wan2gp",
+      "name": "Wan2GP runtime",
+      "org": "community",
+      "license": "OSS",
+      "cost": "$0",
+      "method": "GGUF/AWQ local CUDA",
+      "tier": "local"
+    },
+    {
+      "id": "hyperframes",
+      "name": "HyperFrames HTML\u2192MP4",
+      "org": "HeyGen OSS",
+      "license": "Apache-2.0",
+      "cost": "$0/render local",
+      "github": "https://github.com/heygen-com/hyperframes",
+      "tier": "programmatic",
+      "method": "Not diffusion I2V \u2014 agent HTML motion"
+    },
+    {
+      "id": "ffmpeg-pil",
+      "name": "PIL + FFmpeg contingency",
+      "org": "local",
+      "license": "\u2014",
+      "cost": "$0",
+      "tier": "contingency",
+      "method": "Always-on free guarantee",
+      "status": "VERIFIED_LIVE"
+    },
+    {
+      "id": "grok-imagine",
+      "name": "Grok Imagine I2V",
+      "org": "xAI/Grok",
+      "license": "platform",
+      "cost": "plan included",
+      "tier": "platform",
+      "method": "imagine_image_to_video 6/10/15s"
+    },
+    {
+      "id": "heygen-paid",
+      "name": "HeyGen MCP render_video",
+      "org": "HeyGen",
+      "license": "hosted",
+      "cost": "PAID",
+      "tier": "paid_optional",
+      "method": "compose + render_video last resort"
+    }
+  ],
+  "github_skills_repos": [
+    "https://github.com/heygen-com/hyperframes",
+    "https://github.com/Wan-Video/Wan2.1",
+    "https://github.com/Lightricks/LTX-Video",
+    "https://github.com/THUDM/CogVideo",
+    "https://github.com/hpcaitech/Open-Sora",
+    "https://github.com/genmoai/mochi",
+    "https://github.com/Tencent/HunyuanVideo",
+    "https://github.com/saranambiar/hyperframes-video-agent-skills",
+    "https://github.com/browser-use/video-use",
+    "https://github.com/nexu-io/html-video",
+    "https://github.com/calesthio/OpenMontage",
+    "https://github.com/cantgetalonggta-png/video-skills-distillery"
+  ],
+  "ontology": [
+    "WAN2_PRIMARY",
+    "COGVIDEOX_OR_SVD",
+    "LTX_SECONDARY",
+    "PIL_CONTINGENCY"
+  ],
+  "decision_tree": [
+    "Need true free diffusion I2V? \u2192 try HF ZeroGPU spaces (Wan / CogVideoX / SVD)",
+    "Need local control 8GB+ VRAM? \u2192 ComfyUI + Wan GGUF / Wan2GP",
+    "Need agent HTML motion graphics $0? \u2192 HyperFrames CLI Apache-2.0",
+    "Need short platform clip? \u2192 Grok Imagine",
+    "Always-on guarantee no GPU? \u2192 PIL+FFmpeg contingency (VERIFIED)",
+    "Paid polish OK? \u2192 HeyGen MCP last"
+  ]
+}

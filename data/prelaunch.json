@@ -1,0 +1,45 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "id": "web_search_max_depth",
+      "pass": true,
+      "detail": "Wan2.1/2.2 LTX CogVideoX Open-Sora Hunyuan Mochi SVD ComfyUI HyperFrames"
+    },
+    {
+      "id": "github_repos",
+      "pass": true,
+      "detail": "12 repos indexed"
+    },
+    {
+      "id": "http_space_probe",
+      "pass": true,
+      "detail": "4 spaces HTTP 200 reachable"
+    },
+    {
+      "id": "engine_catalog",
+      "pass": true,
+      "detail": "14 free I2V engines"
+    },
+    {
+      "id": "pil_ffmpeg_retest",
+      "pass": true,
+      "detail": "2s 1280x720 retested"
+    },
+    {
+      "id": "ontology_self_heal",
+      "pass": true,
+      "detail": "remote fail \u2192 PIL success"
+    },
+    {
+      "id": "uploader_hook",
+      "pass": true,
+      "detail": "auto_uploader.sh artifacts+git"
+    },
+    {
+      "id": "dashboard_export",
+      "pass": true,
+      "detail": "FINAL master HTML"
+    }
+  ]
+}
