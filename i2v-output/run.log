@@ -1,0 +1,24 @@
+[2026-10-10 04:51:07] [INFO] [WAN2_PRIMARY]: Autonomous State Machine initialized.
+[2026-10-10 04:51:07] [INFO] [WAN2_PRIMARY]: Input: /root/workspace/input_frame.png exists=True
+[2026-10-10 04:51:07] [INFO] [WAN2_PRIMARY]: Initiating Wan2.1 I2V Generation...
+[2026-10-10 04:51:07] [WARN] [WAN2_PRIMARY]: Primary Wan2 execution failed: 401 Client Error. (Request ID: Root=1-6ac9c43b-1b3edb5849fd6fd541302f98;96927bae-a3a3-4144-b1d4-481a77d76627)
+
+Repository Not Found for url: https://huggingface.co/api/spaces/Wan-AI/Wan2.1-1.3B-I2V.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+[2026-10-10 04:51:07] [INFO] [LTX_SECONDARY]: Transitioning to Secondary Engine: LTX-Video...
+[2026-10-10 04:51:07] [WARN] [LTX_SECONDARY]: Secondary LTX execution failed: 401 Client Error. (Request ID: Root=1-6ac9c43b-76a35390371fe0c966fa6152;991bf308-68be-4d86-971b-735f7ec590d4)
+
+Repository Not Found for url: https://huggingface.co/api/spaces/Lightricks/LTX-Video.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.
+For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+[2026-10-10 04:51:07] [WARN] [PIL_CONTINGENCY]: Deploying Final Fallback: PIL Motion Engine...
+[2026-10-10 04:51:13] [INFO] [PIL_CONTINGENCY]: SUCCESS: Contingency Render compiled at output/rendered_motion.mp4
+[2026-10-10 04:51:13] [INFO] [PIL_CONTINGENCY]: Triggering instant sync hook to Drive and GitHub...
+[*] Starting automated sync sweep: Sat Oct 10 04:51:13 UTC 2026
+[✔] Artifacts mirror complete → /workspace/artifacts/i2v-pipeline/output
+[!] rclone gdrive: not configured — use Grok Drive connector / manual upload
