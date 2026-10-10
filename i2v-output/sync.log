@@ -6,3 +6,8 @@
 [*] Starting automated sync sweep: Sat Oct 10 04:51:13 UTC 2026
 [✔] Artifacts mirror complete → /workspace/artifacts/i2v-pipeline/output
 [!] rclone gdrive: not configured — use Grok Drive connector / manual upload
+[✔] GitHub repository sync attempted.
+[*] Sync sweep finished: Sat Oct 10 04:51:16 UTC 2026
+[*] Starting automated sync sweep: Sat Oct 10 04:51:16 UTC 2026
+[✔] Artifacts mirror complete → /workspace/artifacts/i2v-pipeline/output
+[!] rclone gdrive: not configured — use Grok Drive connector / manual upload
