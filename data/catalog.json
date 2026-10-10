@@ -1,6 +1,6 @@
 {
   "name": "Video Skills Distillery",
-  "version": "1.0.0",
+  "version": "1.1.0-free-render",
   "sources": [
     {
       "id": "video-use",
@@ -81,5 +81,21 @@
       "voices": 28,
       "clone": false
     }
-  }
+  },
+  "free_render": {
+    "engines": 11,
+    "verified": true,
+    "doctor": {
+      "node": "v20.20.2",
+      "ffmpeg": true,
+      "pil": true,
+      "free_demo_ok": true,
+      "free_demo_bytes": 147759,
+      "free_demo_path": "/workspace/artifacts/video-skills-platform/renders/free-demo.mp4",
+      "hyperframes_cli": "needs Node>=22 (sandbox Node 20) \u2014 documented; free ffmpeg path VERIFIED",
+      "engines_catalogued": 11,
+      "prelaunch": "PASS"
+    }
+  },
+  "updated": "2026-10-10T03:53:53.025892Z"
 }

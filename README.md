@@ -1,23 +1,24 @@
-# Video Skills Distillery
+# Video Skills Distillery v1.1 — FREE RENDER FIRST
 
-Autonomous **SKILL-CREATOR · SKILL-SEEKERS · SKILL-DISTILLER** for video production agents.
+Live: https://video-skills-distillery.vercel.app
 
-## Live app
-Open `index.html` or deploy to Vercel. Full SPA with:
-- Skill Seekers inventory (video-use, product-launch-video, marketing video, skills.md, …)
-- Distiller → knowledge atoms + hard rules
-- Skill Creator (generate valid SKILL.md)
-- video-master distilled skill
-- Tool matrix + Grok runtime ceilings
-- One-click autonomous pipeline
+## Free render (no paid credits)
 
-## Sources distilled
-- [browser-use/video-use](https://github.com/browser-use/video-use)
-- [EveryInc/product-launch-video](https://github.com/EveryInc/product-launch-video)
-- [coreyhaines31/marketingskills video](https://github.com/coreyhaines31/marketingskills)
+| Engine | Cost | License | Status |
+|--------|------|---------|--------|
+| **FFmpeg local** (PIL frames) | $0 | — | **VERIFIED** in sandbox → `renders/free-demo.mp4` |
+| HyperFrames CLI | $0/render | Apache-2.0 | Needs Node ≥22 |
+| nexu-io/html-video | $0 | Apache-2.0 | Installable |
+| Motion Canvas | $0 | MIT | Installable |
+| fframes | $0 | MIT | Installable |
+| Grok Imagine | plan | — | 6–15s clips |
+| HeyGen MCP `render_video` | **PAID** | Hosted | Optional last resort |
 
-## Meta skills
-- `skills/skill-creator/SKILL.md`
-- `skills/skill-seekers/SKILL.md`
-- `skills/skill-distiller/SKILL.md`
-- `skills/video-master/SKILL.md`
+```bash
+python3 scripts/free_render_demo.py --out renders/free-demo.mp4
+```
+
+## Modules
+- SKILL-SEEKERS / DISTILLER / CREATOR
+- free-render skill
+- Pre-launch doctor + verification report

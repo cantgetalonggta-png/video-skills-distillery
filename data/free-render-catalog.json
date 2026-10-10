@@ -1,0 +1,197 @@
+{
+  "generated_utc": "2026-10-10T03:50:56.262946Z",
+  "principle": "Prefer $0 per-render local/open-source engines. Paid cloud (HeyGen MCP render_video) is optional, not required.",
+  "free_engines": [
+    {
+      "id": "ffmpeg-local",
+      "name": "FFmpeg (local)",
+      "license": "LGPL/GPL",
+      "cost": "$0",
+      "repo": "https://ffmpeg.org",
+      "requires": [
+        "ffmpeg",
+        "ffprobe"
+      ],
+      "status_in_sandbox": "AVAILABLE",
+      "max_quality": "4K+",
+      "notes": "Foundation: cuts, fades, grade, captions, concat, slideshows."
+    },
+    {
+      "id": "hyperframes-cli",
+      "name": "HyperFrames CLI",
+      "license": "Apache-2.0",
+      "cost": "$0 local",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "npm": "hyperframes",
+      "requires": [
+        "Node>=22",
+        "ffmpeg",
+        "Chromium"
+      ],
+      "status_in_sandbox": "NODE_VERSION_CHECK",
+      "command": "npx hyperframes init my-video && npx hyperframes render -o out.mp4",
+      "notes": "HTML+GSAP to deterministic MP4. Agent-native."
+    },
+    {
+      "id": "html-video",
+      "name": "nexu-io/html-video",
+      "license": "Apache-2.0",
+      "cost": "$0",
+      "repo": "https://github.com/nexu-io/html-video",
+      "requires": [
+        "HyperFrames",
+        "ffmpeg"
+      ],
+      "status_in_sandbox": "INSTALLABLE",
+      "notes": "21 templates, agent HTML to MP4."
+    },
+    {
+      "id": "motion-canvas",
+      "name": "Motion Canvas",
+      "license": "MIT",
+      "cost": "$0",
+      "repo": "https://github.com/motion-canvas/motion-canvas",
+      "requires": [
+        "Node",
+        "ffmpeg"
+      ],
+      "status_in_sandbox": "INSTALLABLE",
+      "notes": "TS canvas explainers, free commercial."
+    },
+    {
+      "id": "fframes",
+      "name": "fframes",
+      "license": "MIT",
+      "cost": "$0",
+      "repo": "https://github.com/dmtrKovalenko/fframes",
+      "requires": [
+        "Rust"
+      ],
+      "status_in_sandbox": "INSTALLABLE",
+      "notes": "Fast GPU SVG/Rust video."
+    },
+    {
+      "id": "agentic-video-engine",
+      "name": "agentic-video-engine",
+      "license": "AGPL-3.0",
+      "cost": "$0",
+      "repo": "https://github.com/Navidaitoolbox1/agentic-video-engine",
+      "requires": [
+        "Playwright",
+        "ffmpeg"
+      ],
+      "status_in_sandbox": "INSTALLABLE",
+      "notes": "Zero cloud fees Chromium+ffmpeg."
+    },
+    {
+      "id": "openmontage",
+      "name": "OpenMontage",
+      "license": "OSS",
+      "cost": "$0 local",
+      "repo": "https://github.com/calesthio/OpenMontage",
+      "requires": [
+        "Remotion or HyperFrames"
+      ],
+      "status_in_sandbox": "REFERENCE",
+      "notes": "12 pipelines, 700+ skill files."
+    },
+    {
+      "id": "opencut",
+      "name": "OpenCut",
+      "license": "OSS",
+      "cost": "$0",
+      "repo": "https://github.com/clawnify/OpenCut",
+      "requires": [
+        "HyperFrames"
+      ],
+      "status_in_sandbox": "REFERENCE",
+      "notes": "HTML timeline editor + HyperFrames."
+    },
+    {
+      "id": "remotion-free",
+      "name": "Remotion free tier",
+      "license": "Source-available",
+      "cost": "$0 if <=4 devs",
+      "repo": "https://github.com/remotion-dev/remotion",
+      "requires": [
+        "Node",
+        "ffmpeg"
+      ],
+      "status_in_sandbox": "INSTALLABLE",
+      "notes": "React to MP4; Company License if >4 devs."
+    },
+    {
+      "id": "grok-imagine",
+      "name": "Grok Imagine",
+      "license": "Grok platform",
+      "cost": "plan included",
+      "repo": null,
+      "requires": [
+        "Grok"
+      ],
+      "status_in_sandbox": "AVAILABLE",
+      "notes": "6/10/15s, up to 1080p."
+    },
+    {
+      "id": "heygen-mcp-paid",
+      "name": "HeyGen MCP render_video",
+      "license": "Hosted",
+      "cost": "PAID credits",
+      "repo": "https://www.heygen.com",
+      "requires": [
+        "HyperFrames connector"
+      ],
+      "status_in_sandbox": "PAID_OPTIONAL",
+      "notes": "Optional last resort."
+    }
+  ],
+  "agent_skills_github": [
+    {
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "name": "saranambiar/hyperframes-video-agent-skills",
+      "url": "https://github.com/saranambiar/hyperframes-video-agent-skills"
+    },
+    {
+      "name": "kajisho5/hyperframes-skill",
+      "url": "https://github.com/kajisho5/hyperframes-skill"
+    },
+    {
+      "name": "Bomx/super-video-maker-skill",
+      "url": "https://github.com/Bomx/super-video-maker-skill"
+    },
+    {
+      "name": "Sunwood-ai-labs/hyperframes-motion-reel-skill",
+      "url": "https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill"
+    },
+    {
+      "name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "name": "EveryInc/product-launch-video",
+      "url": "https://github.com/EveryInc/product-launch-video"
+    },
+    {
+      "name": "GoldLegendW80/llm-video-maker",
+      "url": "https://github.com/GoldLegendW80/llm-video-maker"
+    },
+    {
+      "name": "heygen-com/hyperframes-launches",
+      "url": "https://github.com/heygen-com/hyperframes-launches"
+    },
+    {
+      "name": "nexu-io/html-video",
+      "url": "https://github.com/nexu-io/html-video"
+    }
+  ],
+  "decision_tree": [
+    "$0 long HTML motion? HyperFrames CLI local",
+    "$0 now in sandbox? ffmpeg free_render_demo",
+    "Short AI gen? Grok Imagine",
+    "React? Remotion (license check)",
+    "Credits OK? HeyGen MCP paid optional"
+  ]
+}

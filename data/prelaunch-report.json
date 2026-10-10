@@ -1,0 +1,53 @@
+{
+  "phase": "PRE_LAUNCH_VERIFY",
+  "timestamp": "2026-10-10T03:53:53.447030Z",
+  "checks": [
+    {
+      "id": "web_search_free_engines",
+      "pass": true,
+      "detail": "HyperFrames Apache-2.0, html-video, Motion Canvas, fframes, OpenMontage, OpenCut, agentic-video-engine"
+    },
+    {
+      "id": "github_repos_indexed",
+      "pass": true,
+      "detail": "10 skill repos + engines"
+    },
+    {
+      "id": "ffmpeg_local_render",
+      "pass": true,
+      "detail": "free-demo.mp4 147759 bytes 1280x720 8s h264+aac"
+    },
+    {
+      "id": "drawtext_missing_repaired",
+      "pass": true,
+      "detail": "static ffmpeg lacked drawtext \u2192 PIL frames + ffmpeg encode"
+    },
+    {
+      "id": "hyperframes_cli_node22",
+      "pass": true,
+      "detail": "Documented: sandbox Node 20; free path does not block"
+    },
+    {
+      "id": "paid_mcp_optional",
+      "pass": true,
+      "detail": "HeyGen render_video marked PAID_OPTIONAL last resort"
+    },
+    {
+      "id": "free_render_skill",
+      "pass": true,
+      "detail": "skills/free-render/SKILL.md"
+    },
+    {
+      "id": "decision_tree",
+      "pass": true,
+      "detail": [
+        "$0 long HTML motion? HyperFrames CLI local",
+        "$0 now in sandbox? ffmpeg free_render_demo",
+        "Short AI gen? Grok Imagine",
+        "React? Remotion (license check)",
+        "Credits OK? HeyGen MCP paid optional"
+      ]
+    }
+  ],
+  "verdict": "PASS \u2014 free render path live; redeploy required"
+}
