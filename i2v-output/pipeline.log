@@ -19,3 +19,8 @@ Invalid username or password.
 [2026-10-10 04:51:07] [WARN] [PIL_CONTINGENCY]: Deploying Final Fallback: PIL Motion Engine...
 [2026-10-10 04:51:13] [INFO] [PIL_CONTINGENCY]: SUCCESS: Contingency Render compiled at output/rendered_motion.mp4
 [2026-10-10 04:51:13] [INFO] [PIL_CONTINGENCY]: Triggering instant sync hook to Drive and GitHub...
+[2026-10-10 04:56:21] [INFO] [WAN2_PRIMARY]: Autonomous I2V ontology start
+[2026-10-10 04:56:21] [INFO] [WAN2_PRIMARY]: input=/root/workspace/input_frame.png exists=True
+[2026-10-10 04:56:21] [WARN] [PIL_CONTINGENCY]: PIL Motion Contingency (always-free guarantee)
+[2026-10-10 04:56:28] [INFO] [PIL_CONTINGENCY]: SUCCESS contingency → /root/workspace/output/rendered_motion.mp4
+[2026-10-10 04:56:28] [INFO] [PIL_CONTINGENCY]: Trigger sync hook
