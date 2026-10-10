@@ -1,0 +1,59 @@
+[
+  {
+    "approach": "Conversational edit existing footage",
+    "tools": [
+      "video-use",
+      "ffmpeg",
+      "ElevenLabs Scribe",
+      "HyperFrames overlays",
+      "Remotion",
+      "Manim"
+    ],
+    "when": "Talking heads, interviews, multi-take selection"
+  },
+  {
+    "approach": "Product launch 15\u201330s",
+    "tools": [
+      "product-launch-video",
+      "Remotion",
+      "multi-agent review"
+    ],
+    "when": "Feature launch, social, landing hero"
+  },
+  {
+    "approach": "Programmatic templated",
+    "tools": [
+      "Hyperframes",
+      "Remotion"
+    ],
+    "when": "Batch, data-driven, changelogs"
+  },
+  {
+    "approach": "AI generation B-roll",
+    "tools": [
+      "Veo",
+      "Runway",
+      "Kling",
+      "Grok Imagine"
+    ],
+    "when": "Scenes you can't film; short clips"
+  },
+  {
+    "approach": "AI avatar presenter",
+    "tools": [
+      "HeyGen MCP",
+      "Synthesia",
+      "HyperFrames compose"
+    ],
+    "when": "Explainers without filming"
+  },
+  {
+    "approach": "Repurpose long-form",
+    "tools": [
+      "Descript",
+      "Opus Clip",
+      "CapCut"
+    ],
+    "when": "Podcast/webinar \u2192 shorts"
+  }
+]

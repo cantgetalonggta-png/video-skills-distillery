@@ -1,0 +1,129 @@
+{
+  "generated": "2026-10-10T03:26:36.534006Z",
+  "atoms": [
+    {
+      "id": "audio-first",
+      "title": "Audio is primary",
+      "body": "Cut candidates from speech boundaries and silence; visuals follow.",
+      "tags": [
+        "edit",
+        "video-use"
+      ]
+    },
+    {
+      "id": "confirm-before-cut",
+      "title": "Ask\u2192confirm\u2192execute",
+      "body": "Never touch the cut until strategy confirmed in plain English.",
+      "tags": [
+        "process"
+      ]
+    },
+    {
+      "id": "subtitles-last",
+      "title": "Subtitles last in filter chain",
+      "body": "Otherwise overlays hide captions (silent failure).",
+      "tags": [
+        "hard-rule"
+      ]
+    },
+    {
+      "id": "segment-copy-concat",
+      "title": "Per-segment extract + lossless concat",
+      "body": "Avoid double-encoding when overlays added.",
+      "tags": [
+        "hard-rule",
+        "ffmpeg"
+      ]
+    },
+    {
+      "id": "30ms-fades",
+      "title": "30ms audio fades at cuts",
+      "body": "Prevents audible pops at segment boundaries.",
+      "tags": [
+        "hard-rule",
+        "audio"
+      ]
+    },
+    {
+      "id": "word-boundary-cuts",
+      "title": "Never cut inside a word",
+      "body": "Snap edges to ASR word boundaries; pad 30\u2013200ms.",
+      "tags": [
+        "hard-rule"
+      ]
+    },
+    {
+      "id": "storyboard-first",
+      "title": "Storyboard before code",
+      "body": "Shot-list table before Remotion/HyperFrames code.",
+      "tags": [
+        "launch"
+      ]
+    },
+    {
+      "id": "real-ui-copy",
+      "title": "Never invent product UI labels",
+      "body": "Mirror real app screenshots \u2014 #1 launch video cringe source.",
+      "tags": [
+        "launch"
+      ]
+    },
+    {
+      "id": "product-in-3s",
+      "title": "Product within 3 seconds",
+      "body": "a16z Speedrun research on launch videos.",
+      "tags": [
+        "launch"
+      ]
+    },
+    {
+      "id": "muted-captions",
+      "title": "Burn captions always",
+      "body": "85%+ social views are muted.",
+      "tags": [
+        "social"
+      ]
+    },
+    {
+      "id": "hyperframes-vs-remotion",
+      "title": "HyperFrames for agents, Remotion for React",
+      "body": "HTML/GSAP agent-friendly; Remotion for complex React systems.",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "tool-matrix",
+      "title": "Pick approach by goal",
+      "body": "Programmatic / AI gen / avatars / repurpose \u2014 different stacks.",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "multi-critic",
+      "title": "4 parallel critics after render",
+      "body": "Design, text, narrative, brand \u2014 roast not praise.",
+      "tags": [
+        "qa"
+      ]
+    },
+    {
+      "id": "platform-specs",
+      "title": "Aspect per platform",
+      "body": "9:16 social, 16:9 YouTube, 1:1 feed; separate compositions.",
+      "tags": [
+        "export"
+      ]
+    },
+    {
+      "id": "grok-runtime",
+      "title": "Grok video ceilings",
+      "body": "Imagine 6\u201315s 480/720/1080p; HyperFrames MCP minutes + 1080p/4K API.",
+      "tags": [
+        "grok"
+      ]
+    }
+  ],
+  "hard_rule_hits": 130
+}

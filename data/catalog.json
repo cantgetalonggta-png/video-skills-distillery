@@ -1,0 +1,85 @@
+{
+  "name": "Video Skills Distillery",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "video-use",
+      "url": "https://github.com/browser-use/video-use/blob/main/SKILL.md",
+      "name": "video-use"
+    },
+    {
+      "id": "product-launch-video",
+      "url": "https://github.com/EveryInc/product-launch-video",
+      "name": "product-launch-video"
+    },
+    {
+      "id": "marketing-video",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/video/SKILL.md",
+      "name": "video (marketing)"
+    },
+    {
+      "id": "skills-md",
+      "url": "https://skills.md/",
+      "name": "skills.md registry"
+    },
+    {
+      "id": "skillgild",
+      "url": "https://skillgild.dev/learn/claude-code-video-skills",
+      "name": "skillgild video skills"
+    },
+    {
+      "id": "nanoskill",
+      "url": "https://nanoskill.ai/skills/video-editing",
+      "name": "nanoskill video-editing"
+    },
+    {
+      "id": "agensi",
+      "url": "https://www.agensi.io/learn/skill-md-format-reference",
+      "name": "SKILL.md format"
+    },
+    {
+      "id": "mdskills",
+      "url": "https://www.mdskills.ai/",
+      "name": "mdskills.ai"
+    },
+    {
+      "id": "video-to-skill",
+      "url": "https://www.gregkowalczyk.com/skills/video-to-skill/",
+      "name": "video-to-skill"
+    },
+    {
+      "id": "revid",
+      "url": "https://www.revid.ai/skills/revid-pdf-to-video",
+      "name": "revid pdf-to-video"
+    }
+  ],
+  "meta_skills": [
+    "skill-creator",
+    "skill-seekers",
+    "skill-distiller",
+    "video-master"
+  ],
+  "atoms_count": 15,
+  "runtime": {
+    "imagine": {
+      "max_s": [
+        6,
+        10,
+        15
+      ],
+      "res": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    },
+    "hyperframes_mcp": {
+      "length": "prompt-driven minutes",
+      "res": "~1080p (API 4k)"
+    },
+    "voice": {
+      "voices": 28,
+      "clone": false
+    }
+  }
+}
